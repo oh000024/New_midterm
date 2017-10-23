@@ -51,7 +51,6 @@ let Detail = React.createClass({
         }
     });
 
-
 let ContactItem = React.createClass({
     propTypes:{
         id: React.PropTypes.number,
