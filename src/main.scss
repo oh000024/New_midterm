@@ -1,0 +1,44 @@
+body {
+    height: 100%; 
+}
+  
+  .title {
+    width: 100%;
+    font-size: 3em;
+    font-weight: bold;
+    border: solid black 1px; 
+}
+  
+  .column {
+    float: left;
+    padding: 10px; 
+    // background-color: blue;
+    border: solid gray;
+}
+    .column.list {
+      width: 30%;
+      height: 100%;
+      overflow: scroll; 
+    }
+    .column.details {
+      width: 70%; 
+    }
+  
+  .contact .row {
+    display: inline-block;
+    cursor: pointer;
+    width: 100%; 
+}
+  ul {
+    list-style-type: none; 
+}
+.infobox {
+    width: 200px;
+    .message {
+      border: 1px solid red;
+      .title {
+        color: red; } }
+    .user {
+      border: 2px solid black;
+      .title {
+        color: black; } } }
